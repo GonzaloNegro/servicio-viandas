@@ -2,17 +2,23 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import CartWidjget from '../CartWidget/';
+
+/* import { BsCart2 } from "react-icons/bs";  */
+import Logo from './icono.png';
+
 
 function NavBar() {
   return (
     <Navbar expand="lg" className="navcolor">
       <Container>
-        <Navbar.Brand href="#home">Servicio de Viandas</Navbar.Brand>
+        <img src={Logo} alt="" width="50px"/>
+        <Navbar.Brand href="#home">Tu vianda</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Productos</Nav.Link>
+            <Nav.Link href="#link">Viandas</Nav.Link>
             <NavDropdown title="Dropdown" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
@@ -26,6 +32,8 @@ function NavBar() {
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
+        <CartWidjget/>
+        {/* <Nav.Link href="#link"><BsCart2/></Nav.Link> */}
       </Container>
     </Navbar>
   );

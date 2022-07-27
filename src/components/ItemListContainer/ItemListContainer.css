@@ -1,0 +1,30 @@
+.item{
+    height: 500px;
+    width: 300px;
+    padding: 5px;
+
+    background-color: red;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.img{
+    height: 250px;
+    width: 280px;
+    margin: auto;
+
+    background-color: blue;
+    border-radius: 10px;
+}
+
+.nom{
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+
+.des{
+    width: auto;
+    height: auto;
+    margin: auto;
+}
