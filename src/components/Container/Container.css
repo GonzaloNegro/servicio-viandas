@@ -1,0 +1,9 @@
+.contenido{
+    display: flex;
+    flex-flow: wrap;
+    padding-top: 2rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}

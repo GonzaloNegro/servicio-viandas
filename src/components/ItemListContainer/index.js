@@ -1,18 +1,23 @@
-import './ItemListContainer.css'
+import './ItemListContainer.css';
+import ItemCount from '../ItemCount';
 
 
 function ItemListContainer(props){
     return(
-    <div className='item'>
+    <div className='card'>
         <div className='img'>
 
         </div>
-        <div className='nom'>
-            <p>{props.nombre}</p>
+        <div className='card-body'>
+            <div className='card-body-nom'>
+                <p>{props.nombre}</p>
+            </div>
+            <div className='card-body-des'>
+                <p>{props.descripcion}</p>
+            </div>
+            <ItemCount/>
         </div>
-        <div className='des'>
-            <p>{props.descripcion}</p>
-        </div>
+
     </div>
     );
 }

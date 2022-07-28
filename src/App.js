@@ -2,7 +2,8 @@ import './App.css';
 import NavBar from './components/NavBar/';
 import Caja from './components/Caja';
 import Contador from './components/Contador';
-import ItemListContainer from './components/ItemListContainer/';
+import Container from './components/Container/';
+/* import ItemListContainer from './components/ItemListContainer/'; */
 
 function App() {
 
@@ -10,7 +11,10 @@ function App() {
     <div className="App">
       <NavBar/>
       <h1>Servicio de Viandas</h1>
-      <ItemListContainer nombre={'Vianda 1'} descripcion={'Vianda con tomates, palta, cebolla, pollo y queso'} />
+      <Container>
+        {/* <ItemListContainer nombre={'Vianda 1'} descripcion={'Vianda con tomates, palta, cebolla, pollo y queso'} /> */}
+      </Container>
+      <br/>
       <Caja saludo="hola Mundo">
         <Contador/>
       </Caja>
