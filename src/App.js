@@ -11,9 +11,7 @@ function App() {
     <div className="App">
       <NavBar/>
       <h1>Servicio de Viandas</h1>
-      <Container>
-        {/* <ItemListContainer nombre={'Vianda 1'} descripcion={'Vianda con tomates, palta, cebolla, pollo y queso'} /> */}
-      </Container>
+      <Container/>
       <br/>
       <Caja saludo="hola Mundo">
         <Contador/>

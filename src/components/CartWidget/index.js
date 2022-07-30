@@ -3,10 +3,10 @@ import { BsCart2 } from "react-icons/bs";
 
 function CartWidjget(){
     return( 
-        <div className="cart">
-            <a className='cartp' href="#link"><BsCart2/>0</a>
-        </div>
-/*     <Nav.Link href="#link"><BsCart2/></Nav.Link> */
+        <a className="cart" href="#link">
+            <div className='cartp' ><BsCart2/></div>
+            <p id="valorCart" className='cartcant'>0</p>
+        </a>
     );
 }
 

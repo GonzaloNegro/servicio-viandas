@@ -1,5 +1,5 @@
 import './ItemListContainer.css';
-import ItemCount from '../ItemCount';
+/* import ItemCount from '../ItemCount'; */
 
 
 function ItemListContainer(props){
@@ -15,7 +15,7 @@ function ItemListContainer(props){
             <div className='card-body-des'>
                 <p>{props.descripcion}</p>
             </div>
-            <ItemCount/>
+            {props.children}
         </div>
 
     </div>

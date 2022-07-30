@@ -19,7 +19,7 @@
     background-color: transparent;
 }
 
-.but{
+.butmen{
     width: 20%;
     height: auto;
 
@@ -32,7 +32,25 @@
     border: 1px solid rgb(0, 191, 255);
 }
 
-.but:hover{
+.butmen:hover{
+    color: white;
+    background-color: rgb(0, 191, 255);
+}
+
+.butmas{
+    width: 20%;
+    height: auto;
+
+    font-size: 25px;
+    background-color: transparent;
+    color: rgb(0, 191, 255);
+    border: none;
+
+    border-radius: 10px;
+    border: 1px solid rgb(0, 191, 255);
+}
+
+.butmas:hover{
     color: white;
     background-color: rgb(0, 191, 255);
 }

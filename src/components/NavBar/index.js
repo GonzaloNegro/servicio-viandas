@@ -33,7 +33,6 @@ function NavBar() {
           </Nav>
         </Navbar.Collapse>
         <CartWidjget/>
-        {/* <Nav.Link href="#link"><BsCart2/></Nav.Link> */}
       </Container>
     </Navbar>
   );
