@@ -1,0 +1,55 @@
+.fot{
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(0deg, rgba(255,203,91,1) 25%, rgba(255,255,255,1) 99%);
+
+    height: 300px;
+    max-width: 100%;
+    padding: 20px;
+    margin-top:100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.tittle{
+    width: auto;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.tittle h1{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(107, 107, 107);
+    font-weight: bold;
+}
+
+.location{
+    width: auto;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.location h2{
+    color: rgb(107, 107, 107);
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.copy{
+    display: flex;
+    flex-direction: row;
+}
+
+.copy p{
+    font-weight: bold;
+    color: rgb(107, 107, 107);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

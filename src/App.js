@@ -1,8 +1,8 @@
 import './App.css';
 import NavBar from './components/NavBar/';
-import Caja from './components/Caja';
-import Contador from './components/Contador';
 import Container from './components/Container/';
+import Principal from './components/Principal/';
+import Footer from './components/Footer/';
 /* import ItemListContainer from './components/ItemListContainer/'; */
 
 function App() {
@@ -10,13 +10,13 @@ function App() {
   return (
     <div className="App">
       <NavBar/>
-      <h1>Servicio de Viandas</h1>
+      <Principal>
+        <h1>Servicio de Viandas</h1>
+      </Principal>
+      <br/>
       <Container/>
       <br/>
-      <Caja saludo="hola Mundo">
-        <Contador/>
-      </Caja>
-      
+      <Footer/>
     </div>
   );
 }

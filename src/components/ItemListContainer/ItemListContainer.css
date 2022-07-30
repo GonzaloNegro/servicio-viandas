@@ -2,6 +2,7 @@
     height: 500px;
     width: 300px;
     padding: 5px;
+    margin-bottom: 10px;
 
     border-radius: 10px;
     margin-left: 10px;
@@ -15,10 +16,15 @@
     width: 280px;
     margin: auto;
 
-    background-color: blue;
     border-radius: 10px;
 
     display: flex;
+}
+
+.img img{
+    width: 280px;
+    height: 230px;
+    border-radius: 10px;
 }
 
 .card-body{

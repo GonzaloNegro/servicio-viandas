@@ -7,3 +7,15 @@
     width: 100%;
     height: auto;
 }
+
+.viandas{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.viandas h1{
+    font-size: 50px;
+}

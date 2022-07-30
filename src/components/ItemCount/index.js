@@ -6,12 +6,7 @@ function ItemCount(props){
     const valorCart = document.querySelector("#valorCart");
     const [dis, setDisable] = useState(false);
     const [di, setDis] = useState(false);
-/*     const confirmar = document.querySelector("#confirmar");
-    const menos = document.querySelector("#menos"); */
-/*     const mas = document.getElementById("mas"); */
 
-/*     window.onload(deshabilitar); */
-    
     
     const [total, set] = useState(0);
     const [contador, setContador] = useState(props.initial);
@@ -24,18 +19,6 @@ function ItemCount(props){
             setDisable(true)
         }
     }
-
-/*     function deshabilitar(){
-        if(props.stock === 0){
-            confirmar.disabled = true;
-            mas.disabled = true;
-            menos.disabled = true
-        }else{
-            confirmar.disabled = false;
-            mas.disabled = false;
-            menos.disabled = false
-        }
-    } */
 
     function restar(){
         if(contador === 1){
@@ -50,12 +33,13 @@ function ItemCount(props){
     function agregar(){
         set(total + contador);
         if(contador !== 0){
-            alert("Has agregado " + contador + " producto al carrito")
             valorCart.innerHTML = 1;
+            alert("Has agregado " + contador + " producto al carrito")
+            
         }else{
             alert("Por favor selecciona una cantidad")
         }
-        setContador(contador - contador);
+        setContador(contador - (contador - 1));
         setDisable(false)
     }
 
