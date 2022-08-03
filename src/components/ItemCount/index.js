@@ -9,7 +9,7 @@ function ItemCount(props){
 
     
     const [total, set] = useState(0);
-    const [contador, setContador] = useState(props.initial);
+    const [contador, setContador] = useState(1);
 
     function sumar(){
         if(contador < props.stock){
@@ -30,12 +30,18 @@ function ItemCount(props){
         }
     }
 
+    function mover(){
+        window.scrollTo({
+            top: 0
+          });
+    }
+
     function agregar(){
         set(total + contador);
         if(contador !== 0){
             valorCart.innerHTML = 1;
-            alert("Has agregado " + contador + " producto al carrito")
-            
+            alert("Has agregado " + contador + " producto al carrito");
+            mover();
         }else{
             alert("Por favor selecciona una cantidad")
         }

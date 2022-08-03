@@ -1,24 +1,26 @@
+import React, { useEffect, useState } from 'react';
 import './ItemListContainer.css';
+import getFetch from '../Data/Data';
+import ItemList from '../ItemList/Index';
 
+function ItemListContainer(){
+    const[data, setData] = useState([])
+    const[loading, setLoading] = useState(true)
 
+    useEffect(() =>{
+        getFetch
+        .then((resp)=>setData(resp))
+        .catch(err=>console.log(err))
+        .finally(()=>setLoading(false))
+    },[])
 
-function ItemListContainer(props){
     return(
-    <div className='card'>
-        <div className='img'>
-            <img src={props.img} alt="Imagen"></img>
-        </div>
-        <div className='card-body'>
-            <div className='card-body-nom'>
-                <h4>{props.nombre}</h4>
+            <div className='itemCon'>
+            {
+                loading ? <h4>Cargando...</h4> : 
+                data.map(via=><ItemList key={via.id} id={via.id} title={via.title} description={via.description} price={via.price} picture={via.picture} stock={via.stock}/>)
+            }
             </div>
-            <div className='card-body-des'>
-                <p>{props.descripcion}</p>
-            </div>
-            {props.children}
-        </div>
-
-    </div>
     );
 }
 

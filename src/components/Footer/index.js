@@ -4,13 +4,13 @@ import Logo from '../Imagenes/icono.png';
 function Footer(){
     return(
         <div className='fot'>
-            <div class="tittle">
+            <div className="tittle">
                 <h1><img src={Logo} alt="" width="50px"/>Tu vianda</h1>
             </div>
-            <div class="location">
+            <div className="location">
                 <h2>Córdoba, Argentina</h2>
             </div>
-            <div class="copy">
+            <div className="copy">
                 <p>© 2022 Desarrollado por Gonzalo Negro</p>
             </div>
         </div>
