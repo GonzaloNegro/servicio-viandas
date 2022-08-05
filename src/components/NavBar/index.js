@@ -3,12 +3,12 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import CartWidjget from '../CartWidget/';
-import Logo from '../Imagenes/icono.png';
+import Logo from './icono.png';
 
 
 function NavBar() {
   return (
-    <Navbar expand="lg" className="navcolor">
+    <Navbar expand="lg" className="navcolor" id="home">
       <Container>
         <img src={Logo} alt="" width="50px"/>
         <Navbar.Brand href="#home">Tu vianda</Navbar.Brand>
@@ -16,7 +16,7 @@ function NavBar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Viandas</Nav.Link>
+            <Nav.Link href="#viandas">Viandas</Nav.Link>
             <NavDropdown title="Dropdown" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">

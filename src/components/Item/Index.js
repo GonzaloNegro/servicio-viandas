@@ -6,7 +6,7 @@ function Item(props){
     return(
         <div className='card'>
              <div className='img'>
-                <img src={props.picture} alt=""></img>
+                <img src={props.picture} alt={props.alt}></img>
             </div>
             <div className='card-body'>
                 <div className='card-body-nom'>
@@ -16,7 +16,7 @@ function Item(props){
                     <p>Precio: ${props.price}</p>
                 </div>
             </div>
-            <ItemCount stock={props.stock}/>
+            <ItemCount initial={props.initial} stock={props.stock}/>
         </div>
     );
 }

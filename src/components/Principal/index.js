@@ -1,5 +1,5 @@
 import './principal.css';
-import Logo from '../Imagenes/icono.png';
+import Logo from './icono.png';
 
 function Principal(){
     return(

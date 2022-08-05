@@ -9,7 +9,7 @@ function ItemCount(props){
 
     
     const [total, set] = useState(0);
-    const [contador, setContador] = useState(1);
+    const [contador, setContador] = useState(props.initial);
 
     function sumar(){
         if(contador < props.stock){

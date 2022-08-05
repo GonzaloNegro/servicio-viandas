@@ -5,7 +5,13 @@ import Item from "../Item/Index";
 function ItemList(props){
     return(
         <div className='itemL'>
-            <Item id={props.id} title={props.title} description={props.description} price={props.price} picture={props.picture} stock={props.stock}/>
+            {
+            props.productos.map((via)=>{
+                return(
+                    <Item key={via.id} id={via.id} title={via.title} description={via.description} price={via.price} picture={via.picture} initial={via.initial} alt={via.alt} stock={via.stock} ingredientes={via.ingredientes} valorEnergetico={via.valorEnergetico} tipo={via.tipo}/>
+                )
+            })
+            }
         </div>
     );
 }

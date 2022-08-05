@@ -1,4 +1,4 @@
-const Data=[
+/* export const Data=[
 {
     id: 1,
     title: 'Bife a la criolla con verduras',
@@ -63,17 +63,4 @@ const Data=[
     picture: '../Imagenes/Guiso-de-lentejas-veggie.jpg',
     stock: 5
 },
-]
-
-const getFetch = new Promise((res, rej) =>{
-    let condition = true
-    if(condition){
-        setTimeout(() => {
-            res(Data)
-        }, 2000);
-    }else{
-        rej(console.log('No hay datos'))
-    }
-})
-
-export default getFetch;
+] */

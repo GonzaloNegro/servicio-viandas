@@ -2,7 +2,7 @@
     width: 100%;
     height: 1000px;
 
-    background-image: url("./fondo.jpg");
+    background-image: url("../../../public/Imagenes/fondo.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;

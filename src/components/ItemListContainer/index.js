@@ -1,27 +1,41 @@
 import React, { useEffect, useState } from 'react';
 import './ItemListContainer.css';
-import getFetch from '../Data/Data';
+/* import {Data} from '../Data/Data'; */
 import ItemList from '../ItemList/Index';
+import Data from '../../Api/data.json'
 
 function ItemListContainer(){
-    const[data, setData] = useState([])
-    const[loading, setLoading] = useState(true)
+    const[loading, setLoading] = useState(true);
+    const [error, setError] = useState(false);
+    const[resultado, setResultado] = useState([]);
 
-    useEffect(() =>{
-        getFetch
-        .then((resp)=>setData(resp))
-        .catch(err=>console.log(err))
-        .finally(()=>setLoading(false))
-    },[])
-
-    return(
-            <div className='itemCon'>
+    useEffect(() => {
+        const productCarrito = new Promise ((res, rej)=>{
+        setTimeout(() => {
+                res(Data)
+                rej("¡Error! No se pudieron cargar los productos")
+        }, 2000);
+        })
+        
+        productCarrito
+            .then((result)=>{
+                setResultado(result)
+            })
+            .catch(()=> {
+                setError(error === true)
+            })
+            .finally(()=>{
+                setLoading(false)
+            });
+        
+    })
+    return (
+        <>
             {
-                loading ? <h4>Cargando...</h4> : 
-                data.map(via=><ItemList key={via.id} id={via.id} title={via.title} description={via.description} price={via.price} picture={via.picture} stock={via.stock}/>)
+              loading ? <h4 className='charge'>Cargando productos...</h4> : <ItemList productos={resultado} />
             }
-            </div>
-    );
+        </>
+    )
 }
 
-export default ItemListContainer;
+      export default ItemListContainer;
