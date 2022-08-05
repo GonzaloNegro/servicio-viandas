@@ -7,8 +7,8 @@
         "tipo": "Light",
         "description": "",
         "price": 600,
-        "picture": "../Imagenes/Bife-a-la-criolla-con-verduras.jpg",
-        "alt": "a",
+        "picture": "./Bife-a-la-criolla-con-verduras.jpg",
+        "alt": "Bife a la criolla con verduras",
         "initial": 1,
         "stock": 8
     },
@@ -20,8 +20,8 @@
         "tipo": "Light",
         "description":"",
         "price": 650,
-        "picture": "../Imagenes/Bondiola-con-pure-de-zapallo.jpg",
-        "alt": "b",
+        "picture": "./Bondiola-con-pure-de-zapallo.jpg",
+        "alt": "Bondiola con pure de zapallo",
         "initial": 1,
         "stock": 5
     },
@@ -33,8 +33,8 @@
         "tipo": "Light",
         "description": "",
         "price": 450,
-        "picture": "../Imagenes/Fideos-con-brocoli-y-salsa-blanca.jpg",
-        "alt": "c",
+        "picture": "./Fideos-con-brocoli-y-salsa-blanca.jpg",
+        "alt": "Fideos con brocoli y salsa blanca",
         "initial": 1,
         "stock": 3
     },
@@ -46,8 +46,8 @@
         "tipo": "Light",
         "description": "",
         "price": 550,
-        "picture": "../Imagenes/Filet-de-merluza-con-pure-de-calabaza.jpg",
-        "alt": "d",
+        "picture": "./Filet-de-merluza-con-pure-de-calabaza.jpg",
+        "alt": "Filet de merluza c/pure de calabaza",
         "initial": 1,
         "stock": 4
     },
@@ -59,8 +59,8 @@
         "tipo": "Veggie",
         "description": "",
         "price": 400,
-        "picture": "../Imagenes/Bowl-de-garbanzos-con-vegetales.jpg",
-        "alt": "e",
+        "picture": "./Bowl-de-garbanzos-con-vegetales.jpg",
+        "alt": "Bowl de garbanzos con vegetales",
         "initial": 1,
         "stock": 7
     },
@@ -72,8 +72,8 @@
         "tipo": "Veggie",
         "description": "",
         "price": 450,
-        "picture": "../Imagenes/Canelones-de-acelga-y-ricota-con-salsa-de-tomate.jpg",
-        "alt": "f",
+        "picture": "./Canelones-de-acelga-y-ricota-con-salsa-de-tomate.jpg",
+        "alt": "Canelones de acelga y ricota c/salsa de tomate",
         "initial": 1,
         "stock": 2
     },
@@ -85,8 +85,8 @@
         "tipo": "Veggie",
         "description": "",
         "price": 500,
-        "picture": "../Imagenes/Canelones-de-verdura-con-salsa-blanca.jpg",
-        "alt": "g",
+        "picture": "./Canelones-de-verdura-con-salsa-blanca.jpg",
+        "alt": "Canelones de verdura c/salsa blanca",
         "initial": 1,
         "stock": 3
     },
@@ -98,8 +98,8 @@
         "tipo": "Veggie",
         "description": "",
         "price": 400,
-        "picture": "../Imagenes/Guiso-de-lentejas-veggie.jpg",
-        "alt": "h",
+        "picture": "./Guiso-de-lentejas-veggie.jpg",
+        "alt": "Guiso de lentejas veggie",
         "initial": 1,
         "stock": 5
     }

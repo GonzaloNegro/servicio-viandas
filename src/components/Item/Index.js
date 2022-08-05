@@ -3,10 +3,12 @@ import ItemCount from '../ItemCount';
 
 
 function Item(props){
+    const cargarImagen = require.context("../../../public/Imagenes/", true);
+
     return(
         <div className='card'>
              <div className='img'>
-                <img src={props.picture} alt={props.alt}></img>
+                <img /* src={props.picture} */ src={cargarImagen(`${props.picture}`)} alt={props.alt}></img>
             </div>
             <div className='card-body'>
                 <div className='card-body-nom'>

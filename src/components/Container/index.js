@@ -13,4 +13,3 @@ function Container(){
 }
 
 export default Container;
-/* EXPORTAME POR DEFECTO Container */
