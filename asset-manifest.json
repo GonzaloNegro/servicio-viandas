@@ -1,17 +1,25 @@
 {
   "files": {
     "main.css": "/servicio-viandas/static/css/main.89985047.css",
-    "main.js": "/servicio-viandas/static/js/main.92485d0f.js",
+    "main.js": "/servicio-viandas/static/js/main.4736e8b5.js",
     "static/js/787.5085433d.chunk.js": "/servicio-viandas/static/js/787.5085433d.chunk.js",
     "static/media/fondo.jpg": "/servicio-viandas/static/media/fondo.76b68565a2d4f3dcf81d.jpg",
+    "static/media/Bondiola-con-pure-de-zapallo.jpg": "/servicio-viandas/static/media/Bondiola-con-pure-de-zapallo.992d761f8058e82f4174.jpg",
+    "static/media/Fideos-con-brocoli-y-salsa-blanca.jpg": "/servicio-viandas/static/media/Fideos-con-brocoli-y-salsa-blanca.56d2b035ca4646ad9ddb.jpg",
+    "static/media/Canelones-de-verdura-con-salsa-blanca.jpg": "/servicio-viandas/static/media/Canelones-de-verdura-con-salsa-blanca.25f29b0d4cec50bdbe7e.jpg",
+    "static/media/Bowl-de-garbanzos-con-vegetales.jpg": "/servicio-viandas/static/media/Bowl-de-garbanzos-con-vegetales.8c8a363473279520dc6d.jpg",
+    "static/media/Canelones-de-acelga-y-ricota-con-salsa-de-tomate.jpg": "/servicio-viandas/static/media/Canelones-de-acelga-y-ricota-con-salsa-de-tomate.14f3ee7d4b363be53fdf.jpg",
+    "static/media/Filet-de-merluza-con-pure-de-calabaza.jpg": "/servicio-viandas/static/media/Filet-de-merluza-con-pure-de-calabaza.4b868804093dbe1c8b57.jpg",
+    "static/media/Guiso-de-lentejas-veggie.jpg": "/servicio-viandas/static/media/Guiso-de-lentejas-veggie.97bad036d65bb03c236e.jpg",
+    "static/media/Bife-a-la-criolla-con-verduras.jpg": "/servicio-viandas/static/media/Bife-a-la-criolla-con-verduras.a800b77d8e88e707f6df.jpg",
     "static/media/icono.png": "/servicio-viandas/static/media/icono.c489cbc0143ef92c7b02.png",
     "index.html": "/servicio-viandas/index.html",
     "main.89985047.css.map": "/servicio-viandas/static/css/main.89985047.css.map",
-    "main.92485d0f.js.map": "/servicio-viandas/static/js/main.92485d0f.js.map",
+    "main.4736e8b5.js.map": "/servicio-viandas/static/js/main.4736e8b5.js.map",
     "787.5085433d.chunk.js.map": "/servicio-viandas/static/js/787.5085433d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.89985047.css",
-    "static/js/main.92485d0f.js"
+    "static/js/main.4736e8b5.js"
   ]
 }
