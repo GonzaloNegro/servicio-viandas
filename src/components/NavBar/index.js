@@ -11,7 +11,7 @@ function NavBar() {
     <Navbar expand="lg" className="navcolor" id="home">
       <Container>
         <img src={Logo} alt="" width="50px"/>
-        <Navbar.Brand href="/">Tu vianda</Navbar.Brand>
+        <Navbar.Brand href="/servicio-viandas">Tu vianda</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
