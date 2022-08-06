@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/servicio-viandas/static/css/main.89985047.css",
-    "main.js": "/servicio-viandas/static/js/main.4736e8b5.js",
+    "main.css": "/servicio-viandas/static/css/main.a3c34828.css",
+    "main.js": "/servicio-viandas/static/js/main.6272f095.js",
     "static/js/787.5085433d.chunk.js": "/servicio-viandas/static/js/787.5085433d.chunk.js",
     "static/media/fondo.jpg": "/servicio-viandas/static/media/fondo.76b68565a2d4f3dcf81d.jpg",
     "static/media/Bondiola-con-pure-de-zapallo.jpg": "/servicio-viandas/static/media/Bondiola-con-pure-de-zapallo.992d761f8058e82f4174.jpg",
@@ -14,12 +14,12 @@
     "static/media/Bife-a-la-criolla-con-verduras.jpg": "/servicio-viandas/static/media/Bife-a-la-criolla-con-verduras.a800b77d8e88e707f6df.jpg",
     "static/media/icono.png": "/servicio-viandas/static/media/icono.c489cbc0143ef92c7b02.png",
     "index.html": "/servicio-viandas/index.html",
-    "main.89985047.css.map": "/servicio-viandas/static/css/main.89985047.css.map",
-    "main.4736e8b5.js.map": "/servicio-viandas/static/js/main.4736e8b5.js.map",
+    "main.a3c34828.css.map": "/servicio-viandas/static/css/main.a3c34828.css.map",
+    "main.6272f095.js.map": "/servicio-viandas/static/js/main.6272f095.js.map",
     "787.5085433d.chunk.js.map": "/servicio-viandas/static/js/787.5085433d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.89985047.css",
-    "static/js/main.4736e8b5.js"
+    "static/css/main.a3c34828.css",
+    "static/js/main.6272f095.js"
   ]
 }
