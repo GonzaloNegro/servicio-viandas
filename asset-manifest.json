@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/servicio-viandas/static/css/main.a3c34828.css",
-    "main.js": "/servicio-viandas/static/js/main.6272f095.js",
+    "main.js": "/servicio-viandas/static/js/main.fc8737b9.js",
     "static/js/787.5085433d.chunk.js": "/servicio-viandas/static/js/787.5085433d.chunk.js",
     "static/media/fondo.jpg": "/servicio-viandas/static/media/fondo.76b68565a2d4f3dcf81d.jpg",
     "static/media/Bondiola-con-pure-de-zapallo.jpg": "/servicio-viandas/static/media/Bondiola-con-pure-de-zapallo.992d761f8058e82f4174.jpg",
@@ -15,11 +15,11 @@
     "static/media/icono.png": "/servicio-viandas/static/media/icono.c489cbc0143ef92c7b02.png",
     "index.html": "/servicio-viandas/index.html",
     "main.a3c34828.css.map": "/servicio-viandas/static/css/main.a3c34828.css.map",
-    "main.6272f095.js.map": "/servicio-viandas/static/js/main.6272f095.js.map",
+    "main.fc8737b9.js.map": "/servicio-viandas/static/js/main.fc8737b9.js.map",
     "787.5085433d.chunk.js.map": "/servicio-viandas/static/js/787.5085433d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a3c34828.css",
-    "static/js/main.6272f095.js"
+    "static/js/main.fc8737b9.js"
   ]
 }
