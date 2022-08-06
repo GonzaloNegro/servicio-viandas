@@ -50,3 +50,18 @@
     display: flex;
     justify-content: center;
 }
+
+.button-det{
+    width: auto;
+    height: 28px;
+    background-color: transparent;
+    color: rgb(0, 191, 255);
+    border: 1px solid rgb(0, 191, 255);
+    border-radius: 5px;
+
+}
+
+.button-det:hover{
+    color: white;
+    background-color: rgb(0, 191, 255);
+}

@@ -1,0 +1,9 @@
+.detcont{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    margin-top: 40px;
+
+    border-radius: 10px;
+    border: 1px solid black;
+}

@@ -11,11 +11,11 @@ function NavBar() {
     <Navbar expand="lg" className="navcolor" id="home">
       <Container>
         <img src={Logo} alt="" width="50px"/>
-        <Navbar.Brand href="#home">Tu vianda</Navbar.Brand>
+        <Navbar.Brand href="/">Tu vianda</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="#viandas">Viandas</Nav.Link>
             <NavDropdown title="Dropdown" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>

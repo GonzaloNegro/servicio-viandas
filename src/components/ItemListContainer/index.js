@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import './ItemListContainer.css';
-/* import {Data} from '../Data/Data'; */
 import ItemList from '../ItemList/Index';
 import Data from '../../Api/data.json'
 

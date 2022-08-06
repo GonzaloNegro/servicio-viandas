@@ -8,7 +8,7 @@ function ItemList(props){
             {
             props.productos.map((via)=>{
                 return(
-                    <Item key={via.id} id={via.id} title={via.title} description={via.description} price={via.price} picture={via.picture} initial={via.initial} alt={via.alt} stock={via.stock} ingredientes={via.ingredientes} valorEnergetico={via.valorEnergetico} tipo={via.tipo}/>
+                    <Item key={via.id} {...via}/>
                 )
             })
             }

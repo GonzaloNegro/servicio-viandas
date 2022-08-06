@@ -1,0 +1,12 @@
+.itemD{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    justify-content: space-around; 
+}
+
+.det{
+    padding: 10px;
+
+}
