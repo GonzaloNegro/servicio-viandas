@@ -1,4 +1,4 @@
-/* export const Data=[
+/* const Data=[
 {
     id: 1,
     title: 'Bife a la criolla con verduras',
@@ -63,4 +63,19 @@
     picture: '../Imagenes/Guiso-de-lentejas-veggie.jpg',
     stock: 5
 },
-] */
+] 
+
+export const getFetch = new Promise((res,rej)=>{
+
+    let condition = true
+    if (condition){
+        setTimeout(()=>{
+            res(Data)
+        },2000);
+    }
+    else{
+
+        rej(console.log("No hay datos"))
+    }
+  })
+ */

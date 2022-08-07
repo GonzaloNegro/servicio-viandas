@@ -6,18 +6,19 @@ import Data from '../../Api/data.json'
 
 function ItemDetailContainer(){
 
-    const [product, setProduct] = useState([]);
-    const {id} = useParams()
+    const [product, setProduct] = useState({});
+    const {id} = useParams();
 
-    const getProductById = (id) =>{
-        return new Promise((resolve, reject)=>{
-            setTimeout(() => {
-                resolve(Data.find(dat => dat.id === id))
-            }, 500);
+   useEffect(() => {
+        const getProductById = (id) => {return new Promise ((res, rej)=>{
+        setTimeout(() => {
+            res(Data.find(product => product.id === id))
+            rej(console.log('No hay datos'));
+        }, 2000);
         })
     }
 
-    useEffect(()=>{
+console.log(id);
         getProductById(id)
         .then(product =>{
             setProduct(product)
@@ -27,9 +28,10 @@ function ItemDetailContainer(){
         })
     }, [id])
 
+    console.log(id);
     return(
         <div className='detcont'>
-            <ItemDetail {...product}/>
+            <ItemDetail product={product}/>
         </div>
     );
 }

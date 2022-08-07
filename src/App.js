@@ -13,6 +13,7 @@ function App() {
       <NavBar/>
       <Routes>
         <Route path='/servicio-viandas' element={<Principal/>}/>
+{/*         <Route path='/servicio-viandas/category/:tipo' element={<Principal/>}/> */}
         <Route path='/details/:id' element={<Details/>}/>
       </Routes>
       <Footer/>
