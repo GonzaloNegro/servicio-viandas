@@ -2,12 +2,12 @@
     {
         "id": 1,
         "title": "Bife a la criolla con verduras",
-        "ingredientes": ["Aceite", "Ají morrón rojo", "Arvejas", "Berenjena","Bife", "Cebolla", "Salsa de tomate", "Zanahoria", "Zapallito", "Zucchini"],
-        "valorEnergetico": ["PROTEÍNA: 35,5g", "CALORÍAS: 453kcal", "FIBRAS: 3,4g", "SODIO: 373mg", "CARBOHIDRATOS: 19,4g", "GRASAS SATURADAS: 1,3g"],
+        "ingredientes": "Aceite - Ají morrón rojo - Arvejas - Berenjena - Bife - Cebolla - Salsa de tomate - Zanahoria - Zapallito - Zucchini",
+        "valorEnergetico": "Proteínas: 35,5g - Calorías: 453kcal - Fibras: 3,4g - Sodio: 373mg - Carbohidratos: 19,4g - Grasas saturadas: 1,3g",
         "tipo": "Light",
-        "description": "",
+        "description": "Bife a la criolla con verduras",
         "price": 600,
-        "picture": "./Bife-a-la-criolla-con-verduras.jpg",
+        "picture": "https://i.ibb.co/MhJc69y/Bife-a-la-criolla-con-verduras.jpg",
         "alt": "Bife a la criolla con verduras",
         "initial": 1,
         "stock": 8
@@ -15,12 +15,12 @@
     {
         "id": 2,
         "title": "Bondiola con pure de zapallo",
-        "ingredientes": ["Aceite de girasol", "Bondiola", "Leche", "Zapallo"],
-        "valorEnergetico": ["PROTEÍNA: 27,8g", "CALORÍAS: 576", "FIBRAS: 2,2g", "SODIO: 114mg", "CARBOHIDRATOS: 24,7g", "GRASAS SATURADAS: 12,3g"],
+        "ingredientes": "Aceite de girasol - Bondiola - Leche - Zapallo",
+        "valorEnergetico": "Proteínas: 27,8g // Calorías: 576 // Fibras: 2,2g // Sodio: 114mg // Carbohidratos: 24,7g // Grasas saturadas: 12,3g",
         "tipo": "Light",
-        "description":"",
+        "description":"Bondiola con pure de zapallo",
         "price": 650,
-        "picture": "./Bondiola-con-pure-de-zapallo.jpg",
+        "picture": "https://i.ibb.co/pKB7fBL/Bondiola-con-pure-de-zapallo.jpg",
         "alt": "Bondiola con pure de zapallo",
         "initial": 1,
         "stock": 5
@@ -28,12 +28,12 @@
     {
         "id": 3,
         "title": "Fideos con brocoli y salsa blanca",
-        "ingredientes": ["Brocoli", "Fideos integrales", "Harina", "Leche", "Manteca", "Nuez moscada"],
-        "valorEnergetico": ["PROTEÍNA: 15,7g", "CALORÍAS: 522", "FIBRAS: 0.9g", "SODIO: 52.9mg", "CARBOHIDRATOS: 84.9g", "GRASAS SATURADAS: 5.6g"],
+        "ingredientes": "Brocoli - Fideos integrales - Harina - Leche - Manteca - Nuez moscada",
+        "valorEnergetico": "Proteínas: 15,7g - Calorías: 522 - Fibras: 0.9g - Sodio: 52.9mg - Carbohidratos: 84.9g - Grasas saturadas: 5.6g",
         "tipo": "Light",
-        "description": "",
+        "description": "Fideos con brocoli y salsa blanca",
         "price": 450,
-        "picture": "./Fideos-con-brocoli-y-salsa-blanca.jpg",
+        "picture": "https://i.ibb.co/zm6hRYW/Fideos-con-brocoli-y-salsa-blanca.jpg",
         "alt": "Fideos con brocoli y salsa blanca",
         "initial": 1,
         "stock": 3
@@ -41,12 +41,12 @@
     {
         "id": 4,
         "title": "Filet de merluza c/pure de calabaza",
-        "ingredientes": ["Calabaza", "Huevo", "Leche", "Manteca", "Merluza", "Pan rallado"],
-        "valorEnergetico": ["PROTEÍNA: 41.3g", "CALORÍAS: 439", "FIBRAS: 5g", "SODIO: 168mg", "CARBOHIDRATOS: 32.3g", "GRASAS SATURADAS: 7.4g"],
+        "ingredientes": "Calabaza - Huevo - Leche - Manteca - Merluza - Pan rallado",
+        "valorEnergetico": "Proteínas: 41.3g - Calorías: 439 - Fibras: 5g - Sodio: 168mg - Carbohidratos: 32.3g - Grasas saturadas: 7.4g",
         "tipo": "Light",
-        "description": "",
+        "description": "Filet de merluza c/pure de calabaza",
         "price": 550,
-        "picture": "./Filet-de-merluza-con-pure-de-calabaza.jpg",
+        "picture": "https://i.ibb.co/2MsgvT9/Filet-de-merluza-con-pure-de-calabaza.jpg",
         "alt": "Filet de merluza c/pure de calabaza",
         "initial": 1,
         "stock": 4
@@ -54,12 +54,12 @@
     {
         "id": 5,
         "title": "Bowl de garbanzos con vegetales",
-        "ingredientes": ["Ají morrón rojo", "Berenjena", "Brocoli", "Cebolla", "Garbanzo", "Zanahoria", "Zapallito", "Zucchini"],
-        "valorEnergetico": ["PROTEÍNA: 7.5g", "CALORÍAS: 113", "FIBRAS: 6.5g", "SODIO: 145.5mg", "CARBOHIDRATOS: 24.5g", "GRASAS SATURADAS: 0g"],
+        "ingredientes": "Ají morrón rojo - Berenjena - Brocoli - Cebolla - Garbanzo - Zanahoria - Zapallito - Zucchini",
+        "valorEnergetico": "Proteínas: 7.5g - Calorías: 113 - Fibras: 6.5g - Sodio: 145.5mg - Carbohidratos: 24.5g - Grasas saturadas: 0g",
         "tipo": "Veggie",
-        "description": "",
+        "description": "Bowl de garbanzos con vegetales",
         "price": 400,
-        "picture": "./Bowl-de-garbanzos-con-vegetales.jpg",
+        "picture": "https://i.ibb.co/XVh84Wm/Bowl-de-garbanzos-con-vegetales.jpg",
         "alt": "Bowl de garbanzos con vegetales",
         "initial": 1,
         "stock": 7
@@ -67,12 +67,12 @@
     {
         "id": 6,
         "title": "Canelones de acelga y ricota c/salsa de tomate",
-        "ingredientes": ["Harina", "Huevo", "Leche", "Ricota", "Salsa de tomate"],
-        "valorEnergetico": ["PROTEÍNA: 30.8g", "CALORÍAS: 581", "FIBRAS: 1.2g", "SODIO: 430mg", "CARBOHIDRATOS: 45.8g", "GRASAS SATURADAS: 15.6g"],
+        "ingredientes": "Harina - Huevo - Leche - Ricota - Salsa de tomate",
+        "valorEnergetico": "Proteínas: 30.8g - Calorías: 581 - Fibras: 1.2g - Sodio: 430mg - Carbohidratos: 45.8g - Grasas saturadas: 15.6g",
         "tipo": "Veggie",
-        "description": "",
+        "description": "Canelones de acelga y ricota c/salsa de tomate",
         "price": 450,
-        "picture": "./Canelones-de-acelga-y-ricota-con-salsa-de-tomate.jpg",
+        "picture": "https://i.ibb.co/M14mV3F/Canelones-de-acelga-y-ricota-con-salsa-de-tomate.jpg",
         "alt": "Canelones de acelga y ricota c/salsa de tomate",
         "initial": 1,
         "stock": 2
@@ -80,12 +80,12 @@
     {
         "id": 7,
         "title": "Canelones de verdura c/salsa blanca",
-        "ingredientes": ["Acelga", "Ají morrón rojo", "Cebolla", "Harina", "Huevo", "Leche", "Manteca", "Ricota"],
-        "valorEnergetico": ["PROTEÍNA: 19.4g", "CALORÍAS: 416", "FIBRAS: 5.2g", "SODIO: 490mg", "CARBOHIDRATOS: 50.7g", "GRASAS SATURADAS: 10.1g"],
+        "ingredientes": "Acelga - Ají morrón rojo - Cebolla - Harina - Huevo - Leche - Manteca - Ricota",
+        "valorEnergetico": "Proteínas: 19.4g - Calorías: 416 - Fibras: 5.2g - Sodio: 490mg - Carbohidratos: 50.7g - Grasas saturadas: 10.1g",
         "tipo": "Veggie",
-        "description": "",
+        "description": "Canelones de verdura c/salsa blanca",
         "price": 500,
-        "picture": "./Canelones-de-verdura-con-salsa-blanca.jpg",
+        "picture": "https://i.ibb.co/PmBgtTz/Canelones-de-verdura-con-salsa-blanca.jpg",
         "alt": "Canelones de verdura c/salsa blanca",
         "initial": 1,
         "stock": 3
@@ -93,15 +93,15 @@
     {
         "id": 8,
         "title": "Guiso de lentejas veggie",
-        "ingredientes": ["Arroz", "Ají morrón rojo", "Berenjena", "Cebolla", "Lenteja", "Papa", "Salsa de tomate", "Zanahoria", "Zapallito", "Zucchini"],
-        "valorEnergetico": ["PROTEÍNA: 20.5g", "CALORÍAS: 477", "FIBRAS: 18.3g", "SODIO: 575mg", "CARBOHIDRATOS: 73.9g", "GRASAS SATURADAS: 0g"],
+        "ingredientes": "Arroz - Ají morrón rojo - Berenjena - Cebolla - Lenteja - Papa - Salsa de tomate - Zanahoria - Zapallito - Zucchini",
+        "valorEnergetico": "Proteínas: 20.5g - Calorías: 477 - Fibras: 18.3g - Sodio: 575mg - Carbohidratos: 73.9g - Grasas saturadas: 0g",
         "tipo": "Veggie",
-        "description": "",
+        "description": "Guiso de lentejas veggie",
         "price": 400,
-        "picture": "./Guiso-de-lentejas-veggie.jpg",
+        "picture": "https://i.ibb.co/hgwLZTh/Guiso-de-lentejas-veggie.jpg",
         "alt": "Guiso de lentejas veggie",
         "initial": 1,
         "stock": 5
     }
-]
+] 
     

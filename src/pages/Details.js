@@ -1,4 +1,4 @@
-import ItemDetailContainer from "../components/ItemDetailContainer";
+/* import ItemDetailContainer from "../components/ItemDetailContainer";
 
 export default function Details(){
     return(
@@ -6,4 +6,4 @@ export default function Details(){
             <ItemDetailContainer/>
         </div>
     )
-}
+} */

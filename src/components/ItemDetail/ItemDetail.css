@@ -7,6 +7,47 @@
 }
 
 .det{
+    width: 700px;
     padding: 10px;
+}
 
+.imgD{
+    height: 500px;
+    width: 380px;
+    margin: auto;
+
+    border-radius: 32px;
+    background: #ffffff;
+    box-shadow:  29px 29px 56px #bababa,
+             -29px -29px 56px #ffffff;
+
+    display: flex;
+}
+
+.imgD img{
+    width: 380px;
+    height: 500px;
+    border-radius: 32px;
+}
+
+.titDet{
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.titDet h1{
+    font-size: 28px;
+    text-align: center;
+}
+
+.titDet h2{
+    font-size: 24px;
+    text-align: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(107, 107, 107);
+}
+
+font{
+    font-size: 18px;
+    
 }

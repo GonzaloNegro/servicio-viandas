@@ -3,7 +3,7 @@ import ItemCount from '../ItemCount';
 import { /* Link, */ useNavigate } from 'react-router-dom';
 
 function Item(props){
-    const cargarImagen = require.context("../../../public/Imagenes/", true);
+   /*  const cargarImagen = require.context("../../../public/Imagenes/", true); */
     const navigateFn = useNavigate();
 
     const loadUserDetails = () =>{
@@ -13,7 +13,8 @@ function Item(props){
     return(
         <div className='card'>
              <div className='img'>
-                <img src={cargarImagen(`${props.picture}`)} alt={props.alt}></img>
+                {/* <img src={cargarImagen(`${props.picture}`)} alt={props.alt}></img> */}
+                <img src={props.picture} alt={props.alt}></img>
             </div>
             <div className='card-body'>
                 <div className='card-body-nom'>

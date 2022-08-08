@@ -1,9 +1,13 @@
 .detcont{
     width: 80%;
-    height: 500px;
+    height: auto;
     margin: auto;
     margin-top: 40px;
 
-    border-radius: 10px;
-    border: 1px solid black;
+    border-radius: 32px;
+    background: #ffffff;
+    box-shadow:  29px 29px 56px #bababa,
+             -29px -29px 56px #ffffff;
+
 }
+
