@@ -16,7 +16,7 @@
     width: 380px;
     margin: auto;
 
-    border-radius: 32px;
+    border-radius: 32px 0px 0px 32px;
     background: #ffffff;
     box-shadow:  29px 29px 56px #bababa,
              -29px -29px 56px #ffffff;
@@ -27,7 +27,8 @@
 .imgD img{
     width: 380px;
     height: 500px;
-    border-radius: 32px;
+    border-radius: 32px 0px 0px 32px;
+    border-right: 1px solid rgba(107, 107, 107, 0.5);;
 }
 
 .titDet{
