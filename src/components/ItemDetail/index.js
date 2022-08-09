@@ -3,15 +3,6 @@ import './ItemDetail.css';
 
 export default function ItemDetail({picture, title, tipo, ingredientes, valorEnergetico, description, price, alt}){
 
-/*     const[resultado, setResultado] = useState([]); */
-
-/*     useEffect(() => {
-        const cargarImg = require.context("../../../public/Imagenes/", true);
-    }, []) */
-
-    
-/* const cargarImg = require.context("../../../public/Imagenes/", true); */
-
     return(
         <div className='itemD'>
             <div className='imgD'>

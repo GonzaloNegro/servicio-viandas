@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react';
 import { getProductById } from '../export';
 
 function ItemDetailContainer(){
-
+    const[loading, setLoading] = useState(true);
     const [product, setProduct] = useState();
     const {id} = useParams();
 
@@ -14,6 +14,7 @@ function ItemDetailContainer(){
         getProductById(id)
         .then(product =>{
             setProduct(product)
+            setLoading(false)
         })
         .catch(error => {
             console.log(error)
@@ -22,7 +23,9 @@ function ItemDetailContainer(){
 
     return(
         <div className='detcont'>
-            <ItemDetail {...product}/>
+            {
+           loading ? <h4 className='charge'>Cargando productos...</h4> :  <ItemDetail {...product}/>
+            }
         </div>
     );
 }

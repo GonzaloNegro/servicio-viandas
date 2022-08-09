@@ -1,6 +1,6 @@
 import './principal.css';
 import Logo from './icono.png';
-import Container from '../Container';
+import ItemListContainer from '../ItemListContainer';
 
 
 function Principal(){
@@ -11,7 +11,7 @@ function Principal(){
                     <h1><img src={Logo} alt="" width="200px"/>Tu vianda</h1>
                 </div>
             </div>
-           <Container/>
+           <ItemListContainer/>
         </>
     );
 }

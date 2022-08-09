@@ -11,17 +11,15 @@ function NavBar() {
     <Navbar expand="lg" className="navcolor" id="home">
       <Container>
         <img src={Logo} alt="" width="50px"/>
-        <Navbar.Brand href="/servicio-viandas">Tu vianda</Navbar.Brand>
+        <Navbar.Brand href="/">Tu vianda</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/servicio-viandas">Home</Nav.Link>
+            <Nav.Link href="/">Home</Nav.Link>
             <NavDropdown title="Viandas" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/servicio-viandas">Todas</NavDropdown.Item>
+              <NavDropdown.Item href="/category/Light">Light</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="/servicio-viandas/category/Light">Light</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="/servicio-viandas/category/Veggie">Veggie</NavDropdown.Item>
+              <NavDropdown.Item href="/category/Veggie">Veggie</NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>

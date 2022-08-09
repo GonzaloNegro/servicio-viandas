@@ -7,3 +7,20 @@ export const getProductById = (id) => {return new Promise ((res, rej)=>{
     }, 500);
     })
 }
+
+export const getProducts = () =>{
+    return new Promise ((resolve, reject)=>{
+        setTimeout(() => {
+            resolve(Data)
+        }, 2000);
+    })
+}
+
+
+export const getProductByIdCategory = (categoryId) =>{
+    return new Promise((resolve, reject) =>{
+        setTimeout(() => {
+            resolve(Data.filter(prod => prod.tipo === categoryId))
+        }, 2000);
+    })
+}
