@@ -1,12 +1,15 @@
 import './CartWidget.css';
 import { BsCart2 } from "react-icons/bs"; 
+import { Link } from 'react-router-dom';
 
 function CartWidjget(){
     return( 
-        <a className="cart" href="#link">
-            <div className='cartp'><BsCart2/></div>
-            <p id="valorCart" className='cartcant'>0</p>
-        </a>
+        <>
+            <Link to='/cart' className='cart'>
+                <div className='cartp'><BsCart2/></div>
+                <p id="valorCart" className='cartcant'>0</p>
+            </Link>
+        </>
     );
 }
 
