@@ -1,32 +1,40 @@
 .cart{
-    width: 50px;
+    width: auto;
     height: 30px;
     
     display: flex;
-    border: 1px solid black;
-    border-radius: 5px;
+    justify-content: center;
+    border-radius: 50%;
 
-    color: black;
+    color: rgb(107, 107, 107);;
 }
 
 .cartp{
-    width: 40px;
+    width: auto;
     height: 30px;
     padding: 2px;
     text-decoration: none;
+    display: flex;
+    justify-content: left;
+    align-items: center;
 }
 
 
 .cartcant{
-    width: 10px;
-    height: 30px;
+    width: auto;
+    height: 100px;
     height: auto;
-    margin-top: 2px;
+    padding: 2px;
+
     text-decoration: none;
+
+    display: flex;
+    justify-content: right;
 }
 
-a:hover{
-    color: black;
+.cart:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(77, 233, 77);
 }
 
 a{

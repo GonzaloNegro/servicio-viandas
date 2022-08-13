@@ -1,0 +1,11 @@
+.color{
+    color: black;
+}
+
+.color:hover{
+    color: rgba(0, 0, 0, 0.692);
+}
+
+#basic-nav-dropdown{
+    color: black;
+}

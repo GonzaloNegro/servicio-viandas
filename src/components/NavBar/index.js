@@ -4,6 +4,8 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import CartWidjget from '../CartWidget/';
 import Logo from './icono.png';
+import { Link } from 'react-router-dom';
+import './NavBar.css'
 
 
 function NavBar() {
@@ -14,16 +16,16 @@ function NavBar() {
         <Navbar.Brand href="/">Tu vianda</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link href="/">Home</Nav.Link>
+          <Nav className="me-auto">       
+            <Nav.Link><Link to='/' className='color'>Home</Link></Nav.Link>
             <NavDropdown title="Viandas" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/category/Light">Light</NavDropdown.Item>
+              <NavDropdown.Item><Link to='/category/Light' className='color'>Light</Link></NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="/category/Veggie">Veggie</NavDropdown.Item>
+              <NavDropdown.Item><Link to='/category/Veggie' className='color'>Veggie</Link></NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
-        <CartWidjget/>
+        <Link to='/cart'><CartWidjget/></Link>
       </Container>
     </Navbar>
   );
