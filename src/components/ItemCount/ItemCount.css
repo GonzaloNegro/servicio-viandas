@@ -10,8 +10,8 @@
 .cant-nro{
     width: auto;
     height: auto;
-    margin: 5px;
-    padding: 5px;
+    margin: 0px;
+    padding: 0px;
 
     border-radius: 10px;
     display: flex;

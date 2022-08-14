@@ -52,3 +52,11 @@ font{
     font-size: 18px;
     
 }
+
+.next{
+    background-color: rgb(0, 184, 184);
+}
+
+.next:hover{
+    background-color: rgb(0, 148, 148);
+}

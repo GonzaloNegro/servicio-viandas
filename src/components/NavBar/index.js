@@ -11,12 +11,10 @@ function NavBar() {
   return (
     <Navbar expand="lg" className="navcolor" id="home">
       <Container>
-        <img src={Logo} alt="" width="50px"/>
-        <Navbar.Brand href="/">Tu vianda</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Nav.Link as={Link} to="/" className='color title'><img src={Logo} alt="" width="50px"/>Tu vianda</Nav.Link>
+        <Navbar.Toggle aria-controls="basic-navbar-nav"/>
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">       
-           {/*  <Nav.Link><Link to='/' className='color'>Home</Link></Nav.Link> */}
+          <Nav className="me-auto">
            <Nav.Link as={Link} to="/" className='color'>Home</Nav.Link>
            <Nav.Link as={Link} to="/category/Light" className='color'>Light</Nav.Link>
            <Nav.Link as={Link} to="/category/Veggie" className='color'>Veggie</Nav.Link>

@@ -4,17 +4,23 @@ import { useCartContext } from "../../context/CartContext";
 import Button from "react-bootstrap/Button";
 import Counter from '../ItemCount';
 import { Link } from "react-router-dom";
+import swal from 'sweetalert';
 /* import { useEffect, useState } from 'react'; */
 
 /* export default function ItemDetail({picture, title, tipo, ingredientes, valorEnergetico, description, price, alt, initial, stock}){ */
 export default function ItemDetail(props) {
+                <p id="valorCart" className='cartcant'>0</p>
+    const valorCart = document.querySelector('#valorCart');
     const [irAlCarrito, setearCarrito] = useState(false);
     const { addProducto } = useCartContext();
   
     function agregarProducto(cantidad) {
       setearCarrito(true);
       addProducto(props, cantidad);
-      alert(`¡Agregast ${cantidad} ${props.title} a tu carrito!`);
+      swal(`¡Agregaste ${cantidad} ${props.title} a tu carrito!`);
+      /* const total = cart.cantidad.reduce((prev, curr) => prev + curr); */
+      
+      valorCart.innerHTML = cantidad;
     }
 
     return(
@@ -36,7 +42,15 @@ export default function ItemDetail(props) {
                   {" "}
                   <Button className="btn btn-success">
                     Finalizar Compra
-                  </Button>{" "}
+                  </Button>
+                  {" "}
+                </Link>
+                <Link to="/">
+                  {" "}
+                  <Button className="btn btn-success next">
+                    Seguir comprando
+                  </Button>
+                  {" "}
                 </Link>
               </div>
             ) : (
