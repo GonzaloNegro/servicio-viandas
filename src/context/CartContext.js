@@ -13,11 +13,18 @@ const CartProvider = ({ children }) => {
   let mapIdUsers = cart.map((registro) => registro.cantidad);
   
   console.log('valores:' + mapIdUsers);
-
-/*   carro.innerHTML = mapIdUsers.reduce((prev,curr)=> prev + curr); */
   
+  let total = 0;
+  if(mapIdUsers.length === 0){
+    total = 0
+  }else{
+    total =  mapIdUsers.reduce((prev,curr)=> prev + curr)
+  }
+/*   carro.innerHTML = total; */
+  console.log('el total es: ' + total);
 
 
+  
   const addProducto = (item, cantidad) => {
     if (agregadoAlCart(item.id)) {
       setCart(
