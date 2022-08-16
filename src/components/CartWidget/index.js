@@ -3,6 +3,8 @@ import { BsCart2 } from "react-icons/bs";
 import { Link } from 'react-router-dom';
 
 function CartWidjget(){
+
+
     return( 
         <>
             <Link to='/cart' className='cart'>

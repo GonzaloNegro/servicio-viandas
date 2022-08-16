@@ -3,7 +3,7 @@ const CartContext = React.createContext([]);
 
 export const useCartContext = () => useContext(CartContext);
 
-const carro = document.querySelector('#valorCart');
+/* const carro = document.querySelector('#valorCart'); */
 
 const CartProvider = ({ children }) => {
   const [cart, setCart] = useState([]);
@@ -11,9 +11,12 @@ const CartProvider = ({ children }) => {
   console.log("carro:", cart);
 
   let mapIdUsers = cart.map((registro) => registro.cantidad);
+  
   console.log('valores:' + mapIdUsers);
 
-  carro.innerHTML = mapIdUsers.reduce((prev,curr)=> prev + curr);
+/*   carro.innerHTML = mapIdUsers.reduce((prev,curr)=> prev + curr); */
+  
+
 
   const addProducto = (item, cantidad) => {
     if (agregadoAlCart(item.id)) {
