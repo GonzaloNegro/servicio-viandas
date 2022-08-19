@@ -9,8 +9,8 @@ import swal from 'sweetalert';
 
 /* export default function ItemDetail({picture, title, tipo, ingredientes, valorEnergetico, description, price, alt, initial, stock}){ */
 export default function ItemDetail(props) {
-                <p id="valorCart" className='cartcant'>0</p>
-    const valorCart = document.querySelector('#valorCart');
+/*     <p id="valorCart" className='cartcant'>0</p>
+    const valorCart = document.querySelector('#valorCart'); */
     const [irAlCarrito, setearCarrito] = useState(false);
     const { addProducto } = useCartContext();
   
@@ -20,7 +20,7 @@ export default function ItemDetail(props) {
       swal(`¡Agregaste ${cantidad} ${props.title} a tu carrito!`);
       /* const total = cart.cantidad.reduce((prev, curr) => prev + curr); */
       
-      valorCart.innerHTML = cantidad;
+  /*     valorCart.innerHTML = cantidad; */
     }
 
     return(

@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.imgProductoCart {
+    height: 15em;
+    width: 15em;
+    border-radius: 25%;
+}
+
+.cartProductContainer h4 {
+    font-size: 28px;
+    text-align: left;
+    box-sizing: content-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(107, 107, 107);
+}
+.cartProductContainer p{
+    box-sizing: content-box;
+    text-align: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(107, 107, 107);
+    font-size: larger;
+}
+
+.cartProductContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.cartProductBody{
+    width: 80%;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.cartProductContainer .cartProductBody {
+    box-sizing: content-box;
+    border: 1px solid rgb(255, 203, 91);
+    margin-left: 1em;
+    padding: 1em;
+}
+
+.contTotal{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(107, 107, 107);;
+    text-shadow: 1px 1px rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cartTotal {
+    box-sizing: content-box;
+    margin: 1em;
+    padding: 1em;
+    background-color: rgb(255, 203, 91);
+    border-radius: 10px;
+    font-weight: bolder;
+
+    display: flex;
+    justify-content: center;
+}
+
+.cartTotal span{
+    text-shadow: 1px 1px rgb(0, 0, 0);
+}

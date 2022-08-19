@@ -1,18 +1,19 @@
 import './CartWidget.css';
 import { BsCart2 } from "react-icons/bs"; 
 import { Link } from 'react-router-dom';
+import { useCartContext } from '../../../context/CartContext'
 
-function CartWidjget(){
-
+function CartWidget(){
+    const { totalProductos } = useCartContext();
 
     return( 
         <>
             <Link to='/cart' className='cart'>
                 <div className='cartp'><BsCart2/></div>
-                <p id="valorCart" className='cartcant'>0</p>
+                <span className='cartcant'>{ totalProductos() || " "}</span> 
             </Link>
         </>
     );
 }
 
-export default CartWidjget;
+export default CartWidget;
