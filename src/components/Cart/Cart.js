@@ -30,6 +30,7 @@ const Cart = () => {
             }
             <div className="contTotal">
                 <h4 className="cartTotal">Monto total: ${precioFinal()}</h4>
+                
                 <span> {finalizarCompra()} </span>
             </div>
 
