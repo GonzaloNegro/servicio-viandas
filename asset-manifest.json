@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/servicio-viandas/static/css/main.7bb1b46e.css",
-    "main.js": "/servicio-viandas/static/js/main.10736f6e.js",
-    "static/js/787.5085433d.chunk.js": "/servicio-viandas/static/js/787.5085433d.chunk.js",
-    "static/media/fondo.jpg": "/servicio-viandas/static/media/fondo.76b68565a2d4f3dcf81d.jpg",
-    "static/media/icono.png": "/servicio-viandas/static/media/icono.c489cbc0143ef92c7b02.png",
-    "index.html": "/servicio-viandas/index.html",
-    "main.7bb1b46e.css.map": "/servicio-viandas/static/css/main.7bb1b46e.css.map",
-    "main.10736f6e.js.map": "/servicio-viandas/static/js/main.10736f6e.js.map",
-    "787.5085433d.chunk.js.map": "/servicio-viandas/static/js/787.5085433d.chunk.js.map"
+    "main.css": "/static/css/main.6521d9e7.css",
+    "main.js": "/static/js/main.9785ac2e.js",
+    "static/js/787.5085433d.chunk.js": "/static/js/787.5085433d.chunk.js",
+    "static/media/fondo.jpg": "/static/media/fondo.76b68565a2d4f3dcf81d.jpg",
+    "static/media/icono.png": "/static/media/icono.c489cbc0143ef92c7b02.png",
+    "index.html": "/index.html",
+    "main.6521d9e7.css.map": "/static/css/main.6521d9e7.css.map",
+    "main.9785ac2e.js.map": "/static/js/main.9785ac2e.js.map",
+    "787.5085433d.chunk.js.map": "/static/js/787.5085433d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7bb1b46e.css",
-    "static/js/main.10736f6e.js"
+    "static/css/main.6521d9e7.css",
+    "static/js/main.9785ac2e.js"
   ]
 }
