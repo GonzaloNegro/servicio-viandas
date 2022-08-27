@@ -4,19 +4,32 @@ import { useCartContext } from "../../context/CartContext";
 import Button from "react-bootstrap/Button";
 import Counter from '../ItemCount';
 import { Link } from "react-router-dom";
-import swal from 'sweetalert';
+/* import swal from 'sweetalert'; */
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 export default function ItemDetail(props) {
 
     const [irAlCarrito, setearCarrito] = useState(false);
     const { addProducto } = useCartContext();
+
+    const mensaje = () =>{
+      toast.success('Agregado al carrito!', {
+        position: "top-right",
+        autoClose: 1000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        });
+    }
   
     function agregarProducto(cantidad) {
       setearCarrito(true);
       addProducto(props, cantidad);
-      swal(`¡Agregaste ${cantidad} ${props.title} a tu carrito!`);
-
+      mensaje();
     }
 
     return(
@@ -47,6 +60,7 @@ export default function ItemDetail(props) {
                   </Button>
                   {" "}
                 </Link>
+                <ToastContainer />
               </div>
             ) : (
               <Counter initial={props.initial} stock={props.stock} onAdd={agregarProducto} />

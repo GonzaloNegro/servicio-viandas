@@ -44,26 +44,6 @@ function ItemListContainer(){
   
   
     }, [categoryId])
-
-/*         const[loading, setLoading] = useState(true);
-        const [products, setProducts] = useState([]);
-        const {categoryId} = useParams()
-    
-        useEffect(()=>{
-            if(!categoryId){
-                getProducts().then(products=>{
-                    setProducts(products)
-                    setLoading(false)
-                })
-            }
-            else{
-                getProductByIdCategory(categoryId).then(products=>{
-                    setProducts(products)
-                    setLoading(false)
-                })
-            }
-            
-        }, [categoryId]) */
     
         return (
             <>

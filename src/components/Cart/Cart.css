@@ -30,14 +30,16 @@
 }
 
 .cartProductBody{
-    width: 80%;
+    width: 50%;
+
     margin-top: 10px;
     border-radius: 10px;
 }
 
 .cartProductContainer .cartProductBody {
     box-sizing: content-box;
-    border: 1px solid rgb(255, 203, 91);
+    border: 2px solid rgb(245, 178, 34);
+    background-color: rgb(255, 203, 91);
     margin-left: 1em;
     padding: 1em;
 }
@@ -52,8 +54,11 @@
 }
 
 .cartTotal {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
     box-sizing: content-box;
-    margin: 1em;
     padding: 1em;
     background-color: rgb(255, 203, 91);
     border-radius: 10px;
@@ -65,4 +70,13 @@
 
 .cartTotal span{
     text-shadow: 1px 1px rgb(0, 0, 0);
+}
+
+.cartfin{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.imgProductoCart{
+    border: 2px solid rgb(245, 178, 34);
 }

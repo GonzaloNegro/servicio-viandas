@@ -9,7 +9,7 @@ const CartItem = ({ producto }) => {
     const { eliminarProducto } = useCartContext();
 
     return (
-        <Container fluid className="cartProductContainer">
+        <Container className="cartProductContainer">
             <Row className="cartProductBody ">
                 <Col >
                     <img src={producto.picture} alt={producto.title} className="imgProductoCart img-fluid" />
