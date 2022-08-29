@@ -1,5 +1,5 @@
 import './ItemDetail.css';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useCartContext } from "../../context/CartContext";
 import Button from "react-bootstrap/Button";
 import Counter from '../ItemCount';
@@ -13,6 +13,10 @@ export default function ItemDetail(props) {
 
     const [irAlCarrito, setearCarrito] = useState(false);
     const { addProducto } = useCartContext();
+    
+    useEffect(()=>{
+      window.scrollTo({ top: 0, behavior: 'smooth' })
+    }, [])
 
     const mensaje = () =>{
       toast.success('Agregado al carrito!', {
