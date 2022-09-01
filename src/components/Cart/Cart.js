@@ -7,6 +7,9 @@ import Button from 'react-bootstrap/Button'
 import { addDoc, collection, increment, getFirestore,doc,updateDoc, serverTimestamp } from "firebase/firestore";
 /* import swal from 'sweetalert'; */
 import Swal from "sweetalert2";
+import { Col, Row, Container } from "react-bootstrap";
+import Form from "../Form";
+
 
 const Cart = () => {
     const { cart, precioFinal, LimpiarCart  } = useCartContext();
@@ -39,7 +42,6 @@ const Cart = () => {
             })
         })
     } 
-
     return (
         <>
             {
@@ -53,20 +55,28 @@ const Cart = () => {
                     </div>
                 </div>
                     :
-                    cart.map((producto) => {
-                        return (
-                            <CartItem key={producto.id} producto={producto} />
-                        )
-                    })
+                    <Container>
+                        <Row>
+                            <Col>
+                            {
+                                cart.map((producto) => {
+                                    return (
+                                        <CartItem key={producto.id} producto={producto} />
+                                    )
+                                })
+                            }
+                            </Col>
+                        </Row>
+                                <div className="contTotal">
+                                    <h4 className="cartTotal">Monto total: ${precioFinal()}</h4>
+                                    <Form/>
+                                </div>
+                                <Button disabled={cart.length === 0} onClick={emitirCompra} className="btn btn-success col-6">Finalizar compra</Button>
+                    </Container>
             }
-            <div className="contTotal">
-                <h4 className="cartTotal">Monto total: ${precioFinal()}</h4>
-                {/* <span className="cartfin"> {finalizarCompra()} </span> */}
-            </div>
-            <Button disabled={cart.length === 0} onClick={emitirCompra} className="btn btn-success col-6">Finalizar compra</Button>
+            </>
+        )
+    }
+    
+    export default Cart;
 
-        </>
-    )
-}
-
-export default Cart;
