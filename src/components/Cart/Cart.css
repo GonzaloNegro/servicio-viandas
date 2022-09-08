@@ -80,3 +80,26 @@
 .imgProductoCart{
     border: 2px solid rgb(245, 178, 34);
 }
+
+.datos{
+    height: auto;
+    width: 50%;
+    margin: 0 auto;
+
+    margin-bottom: 20px;
+    padding: 1em;
+    background-color: rgb(255, 203, 91);
+    border: 2px solid rgb(245, 178, 34);
+    border-radius: 10px;
+}
+
+input{
+    width: 80%;
+    margin: 20px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
