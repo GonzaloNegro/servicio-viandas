@@ -5,7 +5,8 @@ Ecommerce desarrollado para el trabajo final de React en Coderhouse.
 ## Ecommerce - Servicio de venta de viandas
 
 
-![2022-08-10-17-26-58](https://user-images.githubusercontent.com/69173727/184013859-76724809-cfa8-4904-a7f9-c324c0a6fd20.gif)
+![2022-09-08-18-19-54](https://user-images.githubusercontent.com/69173727/189228729-46980b7b-f8d0-4a42-af06-e50a360aaaa4.gif)
+
 
 ## Dependencias
 
