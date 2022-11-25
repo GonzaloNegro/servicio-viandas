@@ -18,3 +18,11 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: rgb(107, 107, 107);
 }
+
+/* MOBILE */
+@media screen and (max-width: 599px){
+    .detcont{
+        width: 300px;
+        height: auto;
+    }
+}

@@ -1,9 +1,8 @@
 .fot{
-    width: 100%;
+    width: auto;
     height: 700px;
     background: linear-gradient(0deg, rgba(255,203,91,1) 25%, rgba(255,255,255,1) 99%);
 
-    max-width: 100%;
     padding: 50px;
     margin-top:100px;
 
@@ -54,4 +53,23 @@
     font-weight: bold;
     color: rgb(107, 107, 107);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* MOBILE */
+@media screen and (max-width: 599px){
+    .tittle{
+    }
+
+    .tittle h1{
+        font-size: 40px;
+    }
+
+    .tittle h1 img{
+        width: 50px;
+    }
+
+    .location{
+        justify-content: center;
+    }
+    
 }

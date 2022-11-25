@@ -10,8 +10,8 @@ const CartItem = ({ producto }) => {
 
     return (
         <Container className="cartProductContainer">
-            <Row className="cartProductBody ">
-                <Col >
+            <Row className="cartProductBody">
+                <Col>
                     <img src={producto.picture} alt={producto.title} className="imgProductoCart img-fluid" />
                 </Col>
                 <Col >

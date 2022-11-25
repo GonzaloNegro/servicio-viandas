@@ -5,7 +5,12 @@ function Footer(){
     return(
         <div className='fot'>
             <div className="tittle">
-                <h1><img src={Logo} alt="" width="80px"/>Tu vianda</h1>
+                <div>
+                    <img src={Logo} alt="" width="80px"/>
+                </div>
+                <div>
+                    <h1>Tu vianda</h1>
+                </div>
             </div>
             <div className="location">
                 <h2>Córdoba, Argentina</h2>

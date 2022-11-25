@@ -21,3 +21,19 @@ h1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: rgb(107, 107, 107);
 }
+
+/* MOBILE */
+@media screen and (max-width: 599px){
+    .prin{
+        width: 100%;
+        height: 400px;
+    }
+
+    .tit img{
+        width: 100px;
+    }
+    
+    h1{
+        font-size: 45px;
+    }
+}

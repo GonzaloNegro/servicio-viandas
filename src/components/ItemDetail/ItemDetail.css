@@ -60,3 +60,43 @@ font{
 .next:hover{
     background-color: rgb(0, 148, 148);
 }
+
+/* MOBILE */
+@media screen and (max-width: 599px){
+    .itemD{
+        width: auto;
+        height: auto;
+    
+        background-color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; 
+    }
+    
+    .det{
+        width: 300px;
+        padding: 10px;
+    }
+    
+    .imgD{
+        height: 300px;
+        width: 100%;
+        margin: auto;
+    
+        border-radius: 32px 32px 0px 0px;
+        box-shadow:  none;
+    
+        display: flex;
+    }
+
+    .imgD img{
+        height: 100%;
+        width: 100%;
+        border-radius: 32px 32px 0px 0px;
+    }
+
+    .titDet h1{
+        margin-top: 20px;
+    }
+}

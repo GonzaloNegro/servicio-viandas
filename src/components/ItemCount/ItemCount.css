@@ -112,3 +112,17 @@ h5{
     font-size: 15px;
     color: rgb(107, 107, 107);
 }
+
+/* MOBILE */
+@media screen and (max-width: 599px){
+    .button {
+       width: 250px;
+       margin-bottom: 10px;
+    }
+
+    .cant-nro{
+        max-width: 280px;
+        justify-content: space-evenly;
+    }
+
+}
