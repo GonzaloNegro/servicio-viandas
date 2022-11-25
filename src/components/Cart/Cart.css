@@ -138,5 +138,6 @@ input[type=number]::-webkit-outer-spin-button {
         height: 250px;
         width: 250px;
         border-radius: 10px;
+        
     }
 }
